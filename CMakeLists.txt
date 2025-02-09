@@ -44,7 +44,7 @@ pico_enable_stdio_usb(modulo_PWM 0)
 # Add the standard library and hardware PWM library
 target_link_libraries(modulo_PWM
     pico_stdlib
-    hardware_pwm  # Biblioteca necessária para PWM
+    hardware_pwm  # Biblioteca PWM
 )
 
 # Add the standard include files to the build
