@@ -1,4 +1,4 @@
-# Link do vídeo:
+# Link do vídeo: https://drive.google.com/file/d/1hiaFNVF75p2Xu5DG3NyOhh2M1NBcWMuL/view?usp=sharing
 
 # Controle de Servomotor e LED RGB com PWM no Raspberry Pi Pico:
 - Este projeto demonstra como controlar um servomotor e um LED RGB utilizando PWM (Pulse Width Modulation) no Raspberry Pi Pico. O código foi desenvolvido em C utilizando o SDK do Raspberry Pi Pico e a ferramenta Wokwi.
@@ -10,6 +10,7 @@ O projeto consiste em controlar um servomotor e um LED RGB de forma sincronizada
 - Controle de Servomotor: O servomotor é posicionado em 0°, 90° e 180° com um atraso de 5 segundos entre cada posição.
 - Controle de LED RGB: O brilho do LED é ajustado proporcionalmente à posição do servomotor.
 - Movimentação Suave: O servomotor é movimentado suavemente entre 0° e 180° com incrementos de 5µs, enquanto o brilho do LED é ajustado em tempo real.
+- OBS: Aguardar 3 segundos após rodar o código para dar play no simulador Wokwi, pois a chamada stdio_init_all() (usada para iniciar a comunicação serial) pode levar alguns segundos para conectar a interface USB.
 
 # Configurações:
 - Servomotor: Conectado ao GPIO 22.
